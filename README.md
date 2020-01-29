@@ -1,4 +1,6 @@
 Scriptario
+Apply network analysis to screenplays
+
 A web application that scans screenplays in PDF format,
 and creates network graphs of location, scene, and character.
 The purpose of this software is to provide an open source method
@@ -16,4 +18,27 @@ Scriptario:
 7. Lists data based on location, scene, or chracter
 8. Present data to user
 ----------------------------------------------------
+Technical Plan (starts Googling profusely):
 
+React Frontend
+▲
+UI based API - https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/
+
+▼
+https://www.npmjs.com/package/pdf-to-text
+Node middleware
+(take file and convert to text)
+
+▲
+Rest API
+▼
+-----
+PYTHON GRAPHING APP
+(Takes a text script) --> returns a network graph
+1. https://programmingwithmosh.com/javascript/react-file-upload-proper-server-side-nodejs-easy/
+2. 
+-----
+100 Questions
+1. How is this better than other solutions?
+2. Can I factor in my budget in any way? 
+3. Can it give me estimated times at each location based on a config value?
