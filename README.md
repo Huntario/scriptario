@@ -18,8 +18,6 @@ Scriptario:
 7. Lists data based on location, scene, or chracter
 8. Present data to user
 ----------------------------------------------------
-Technical Plan (starts Googling profusely):
-----------------------------------------------------
 ▼ React Frontend
 
 1. UI based API
@@ -27,8 +25,7 @@ Technical Plan (starts Googling profusely):
 - https://programmingwithmosh.com/javascript/react-file-upload-proper-server-side-nodejs-easy/
 ----------------------------------------------------
 ▲▼ Node middleware 
-
--serves React frontend and serves as interface between it and services
+- serves React frontend and serves as interface between it and services
 https://www.npmjs.com/package/pdf-to-text
 ----------------------------------------------------
 ◀ ▶ Python graphing app
