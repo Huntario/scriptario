@@ -31,9 +31,7 @@ Technical Plan (starts Googling profusely):
 -serves React frontend and serves as interface between it and services
 https://www.npmjs.com/package/pdf-to-text
 ----------------------------------------------------
-▲▼ Rest API
------
-PYTHON GRAPHING APP
+◀ ▶ Python graphing app
 (Takes a text script) --> returns a network graph
 1. pdfminer.six
 -  https://pdfminersix.readthedocs.io/en/latest/api/index.html
