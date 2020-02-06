@@ -23,20 +23,18 @@ Technical Plan (starts Googling profusely):
 React Frontend
 ▲
 UI based API - https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/
-
+- https://programmingwithmosh.com/javascript/react-file-upload-proper-server-side-nodejs-easy/
 ▼
 https://www.npmjs.com/package/pdf-to-text
-Node middleware
-(take file and convert to text)
-
+Node middleware - serves React frontend and serves as interface between it and services
 ▲
 Rest API
 ▼
 -----
 PYTHON GRAPHING APP
 (Takes a text script) --> returns a network graph
-1. https://programmingwithmosh.com/javascript/react-file-upload-proper-server-side-nodejs-easy/
-2. 
+1. https://pdfminersix.readthedocs.io/en/latest/api/index.html
+-  https://github.com/pdfminer/pdfminer.six
 -----
 100 Questions
 1. How is this better than other solutions?
