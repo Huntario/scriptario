@@ -21,11 +21,13 @@ Scriptario:
 Technical Plan (starts Googling profusely):
 ----------------------------------------------------
 ▼ React Frontend
+
 1. UI based API
 - https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/
 - https://programmingwithmosh.com/javascript/react-file-upload-proper-server-side-nodejs-easy/
 ----------------------------------------------------
 ▲▼ Node middleware 
+
 -serves React frontend and serves as interface between it and services
 https://www.npmjs.com/package/pdf-to-text
 ----------------------------------------------------
