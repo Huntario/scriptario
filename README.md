@@ -41,3 +41,9 @@ Scriptario:
 4. Can it give me scene by scene PDFs?
 5. Can it give me actor specific script packets?
 6. Can it include schedule/location information with that packet?
+
+
+
+https://github.com/facebookresearch/detectron2
+https://github.com/jiaaro/pydub
+https://pypi.org/project/SpeechRecognition/
