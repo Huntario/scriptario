@@ -1,0 +1,37 @@
+INT. WHATEVER LOCATION - DAY
+
+PETER
+Blah blah
+
+PETER walks to the door
+
+JANE
+Hey there
+
+screenplay = 
+{
+  [
+    {
+    location : WHATEVER LOCATION,
+    time : DAY
+    dialogue-action: [
+      { 
+        'character':'PETER',
+        'type':'dialogue'
+        'content':'Blah blah'
+      },
+     { 
+        'character':'PETER',
+        'type':'action'
+        'content':'Peter walks to the door'
+      },
+      { 
+        'character':'JANE',
+        'type':'dialogue'
+        'content':'Hey there
+      },      
+      ]
+    }
+  ]
+}
+

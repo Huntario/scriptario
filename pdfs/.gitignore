@@ -1,0 +1,4 @@
+# This is just a placeholder so that this directory is tracked by git
+# without commiting the documents you wish to analyze
+*
+!.gitignore
