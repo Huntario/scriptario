@@ -35,3 +35,26 @@ screenplay =
   ]
 }
 
+STARTER = "Hello World"
+FILENAME = "output.txt"
+TARGET_INT = "INT."
+TARGET_EXT = "EXT."
+
+
+
+with open(FILENAME) as f:
+    value = None
+    seen = False
+    for line in f:
+        if line.strip() == TARGET_INT or TARGET_EXT:
+            seen = True
+            continue
+
+        if (TARGET_INT in line or TARGET_EXT in line) and seen:
+            _, value = line.split('=')
+            break
+
+if value is not None:
+    print "Got value %d" % int(value)
+else:
+    print "Nothing found"
